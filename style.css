@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(235, 240, 234);
+}
+
+/* Header */
+#header{
+    text-align: center;
+}
+
+.header h2{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container */
+.container{
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.container h1{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* inputfields */
+.inputFields{
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(219, 197, 197);
+}
+
+/* Output */
+.output{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.output h1{
+    font-size: 25px;
+}
+
+/* Total */
+.total{
+    margin-left:auto; margin-right:0;
+    height: 23x;
+    width: 315px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 189px 1fr;
+    border-left: 1px solid black;
+}
+
+.total h3{
+    margin: 0px;
+    text-align: left;
+    padding-left: 15px;
+    display: grid;
+    border: 1px solid black;
+    height: 100%;
+}
+
+/* Table */
+#table{
+    height: 100px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+#table p{
+    padding: 0px;
+    margin: 0px;
+    height: 23px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Data */
+.data{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    height: 25px;
+}
+
+.block{
+    border: 1px solid black;
+    height: 23px;
+}
+
+.blockSum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+    width: 40px;
+}
+
+/* Valuation */
+
+.valuation{
+    margin: auto;
+    margin-top:50px; 
+    height: 100px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
